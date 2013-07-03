@@ -4,7 +4,7 @@ echo Executing ~/.bashrc . . . .
 # do some trickery to avoid reordering of paths.
 export PATH=":"
 eval `/usr/libexec/path_helper -s`
-export PATH="$PATH:$HOME/.cabal/bin:/usr/local/share/npm/bin"
+export PATH="$PATH:$HOME/.cabal/bin:/usr/local/share/npm/bin:/usr/texbin"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 eval "rvm gemset use default > /dev/null"
 
