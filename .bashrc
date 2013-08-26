@@ -84,6 +84,7 @@ alias rdocs="rvm docs open"
 alias books='cd ~/Dropbox/Book\ collection'
 alias articles='cd ~/Dropbox/Article\ and\ chapter\ collection'
 alias avanti='cd ~/Dropbox/Dissertation/avanti'
+alias ostracon='cd ~/Dropbox/Dissertation/ostracon'
 alias dissertation='cd ~/Dropbox/Dissertation'
 alias nyustein='cd ~/Dropbox/Dissertation/LaTeX/nyustein'
 alias dev='cd ~/Dropbox/Dev'
