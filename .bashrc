@@ -80,6 +80,7 @@ alias lydoc='open /usr/local/opt/lilypond/share/doc/lilypond/html/index.html'
 alias lyreg='open /usr/local/opt/lilypond/share/doc/lilypond/html/input/regression/collated-files.html'
 alias lydocreg='lydoc && lyreg'
 alias rdocs="rvm docs open"
+alias rusgram='open ~/Documents/Non-music/LearnRussian/learnrussian.rt.com/grammar-tables/index.html'
 
 alias books='cd ~/Dropbox/Book\ collection'
 alias articles='cd ~/Dropbox/Article\ and\ chapter\ collection'
