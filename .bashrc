@@ -93,6 +93,7 @@ alias subluser='cd /Users/rammos/Library/Application\ Support/Sublime\ Text\ 2/P
 alias formula='cd `brew --prefix`//Library//Formula'
 alias aaltoex='cd ~/Dropbox/Dev/MobileWebAppsExamples'
 alias ftthemes='cd ~/Library/Containers/com.foldingtext.FoldingText/Data/Library/Application\ Support/FoldingText/Themes'
+alias piano='cd ~/Dropbox/Repository/PianoNotes'
 
 alias nyussh="ssh -2 -x theory.smusic.nyu.edu -l rammos"
 
