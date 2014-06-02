@@ -11,7 +11,7 @@ eval "rvm gemset use default > /dev/null"
 export INFOPATH="/usr/local/share/info:/usr/share/info"
 export NODE_PATH=/usr/local/lib/node_modules
 
-# Add DocBook in XML toolchain 
+# Add DocBook in XML toolchain
 export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
 
 ## Locale and language
@@ -28,8 +28,8 @@ export LSCOLORS=Exfxcxdxbxegedabagacad
 export LS_COLORS="di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43"
 
 # Prompting
-# export PS1='\n\n\n\[\e[37;40m\](\!) (\j)`__git_ps1` \[$(tput bold)\]▼  \w>\[$(tput sgr0)\]  ' 
-export PS1='\n\n\n$(if [[ $? = "0" ]]; then echo "\[\e[37;40m\]"; else echo "\[\e[31;40m\]"; fi)(\!) (\j)`__git_ps1` \[$(tput bold)\]▼  \w>\[\e[37;40m$(tput sgr0)\]  ' 
+# export PS1='\n\n\n\[\e[37;40m\](\!) (\j)`__git_ps1` \[$(tput bold)\]▼  \w>\[$(tput sgr0)\]  '
+export PS1='\n\n\n$(if [[ $? = "0" ]]; then echo "\[\e[37;40m\]"; else echo "\[\e[31;40m\]"; fi)(\!) (\j)`__git_ps1` \[$(tput bold)\]▼  \w>\[\e[37;40m$(tput sgr0)\]  '
 export TERM="xterm-256color"
 [ -n "$TMUX" ] && export TERM=screen-256color
 
@@ -60,6 +60,8 @@ alias ..='cd ..'
 alias proxyon='networksetup -setautoproxystate Wi-Fi on'
 alias proxyoff='networksetup -setautoproxystate Wi-Fi off'
 alias proxystatus='networksetup -getautoproxyurl Wi-Fi'
+alias privoxyoff='kill `pidof privoxy`'
+alias privoxyon='privoxy /usr/local/etc/privoxy/config'
 
 alias rm='rm -i'
 alias ls='ls -alp'
@@ -71,7 +73,7 @@ alias bupdate='brew update && brew outdated'
 alias mux='mux _0.5.0_'
 
 function goto() { cd $(dirname "$@"); }
-function gotow() { cd $(dirname `which "$@"`); } 
+function gotow() { cd $(dirname `which "$@"`); }
 
 function cless () { pygmentize -g -O encoding=utf-8 -O style=monokai -f terminal256 "$1" | less -RN; }
 function ccat () { pygmentize -g -O encoding=utf-8 -O style=monokai -f terminal256 "$1" | cat -n; }
@@ -93,7 +95,8 @@ alias subluser='cd /Users/rammos/Library/Application\ Support/Sublime\ Text\ 3/P
 alias formula='cd `brew --prefix`//Library//Formula'
 alias aaltoex='cd ~/Dropbox/Dev/MobileWebAppsExamples'
 alias ftthemes='cd ~/Library/Containers/com.foldingtext.FoldingText/Data/Library/Application\ Support/FoldingText/Themes'
-alias piano='cd ~/Dropbox/Repository/PianoNotes'
+alias pianonotes='cd ~/Dropbox/Repository/PianoNotes'
+alias pianonotesedit='subl ~/Dropbox/Repository/PianoNotes/PianoNotes.sublime-project'
 
 alias nyussh="ssh -2 -x theory.smusic.nyu.edu -l rammos"
 
