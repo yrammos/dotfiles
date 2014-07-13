@@ -1,0 +1,120 @@
+bibtex.search.path = {/Users/rammos/Dropbox/Dissertation/ostracon}
+verbose = on
+
+pass.comments = on
+print.use.tab = off
+symbol.type = cased
+preserve.key.case = on
+print.newline = 2
+sort = {on}
+
+new.format.type {17=”%f%v%l”}
+
+new.entry.type {article}
+new.entry.type {book}
+new.entry.type {collection}
+new.entry.type {inbook}
+new.entry.type {incollection}
+new.entry.type {inproceedings}
+new.entry.type {inreference}
+new.entry.type {online}
+new.entry.type {periodical}
+new.entry.type {proceedings}
+new.entry.type {report}
+new.entry.type {review}
+new.entry.type {suppbook}
+new.entry.type {suppcollection}
+new.entry.type {thesis}
+new.entry.type {unpublished}
+
+sort.order{* =
+        Author
+        #Lista
+        #Title
+        #Titleaddon
+        #Shorttitle
+        #Booktitle
+        #Booktitleaddon
+        #Bookauthor
+        #Maintitle
+        #Issuetitle
+        #Type
+        #Introduction
+        #Foreword
+        #Afterword
+        #Editor
+        #Translator
+        #Namea
+        #Nameb
+        #Editora
+        #Editoratype
+        #Journaltitle
+        #Entrysubtype
+        #Booksubtype
+        #Issuetitle
+        #Volume
+        #Volumes
+        #Number
+        #Series
+        #Pages
+        #Chapter
+        #Part
+        #Date
+        #Edition
+        #Urldate
+        #Organization
+        #Institution
+        #Location
+        #Address
+        #Publisher
+        #Isrn
+        #Url
+        #Doi
+        #Hyphenation
+        #Devonthink
+        #Reference
+        #Date-Modified
+        }
+
+% delete.field {Bdsk-Url-1}
+% delete.field {Bdsk-Url-2}
+% delete.field {Bdsk-Url-3}
+% delete.field {Bdsk-Url-4}
+% delete.field {Bdsk-Url-5}
+% delete.field {Bdsk-Url-6}
+% delete.field {Bdsk-Url-7}
+% delete.field {Bdsk-Url-8}
+% delete.field {Bdsk-Url-9}
+% delete.field {Bdsk-Url-10}
+% delete.field {Bdsk-File-1}
+% delete.field {Bdsk-File-2}
+% delete.field {Bdsk-File-3}
+% delete.field {Bdsk-File-4}
+% delete.field {Bdsk-File-5}
+% delete.field {Bdsk-File-6}
+% delete.field {Bdsk-File-7}
+% delete.field {Bdsk-File-8}
+% delete.field {Bdsk-File-9}
+% delete.field {Bdsk-File-10}
+% delete.field {Bdsk-File-11}
+% delete.field {Bdsk-File-12}
+% delete.field {Bdsk-File-13}
+% delete.field {Bdsk-File-14}
+% delete.field {Bdsk-File-15}
+% delete.field {Bdsk-File-16}
+% delete.field {Bdsk-File-17}
+% delete.field {Bdsk-File-18}
+% delete.field {Bdsk-File-19}
+% delete.field {Bdsk-File-20}
+% delete.field {Bdsk-File-21}
+% delete.field {Bdsk-File-22}
+% delete.field {Bdsk-File-23}
+% delete.field {Bdsk-File-24}
+% delete.field {Bdsk-File-25}
+% delete.field {Bdsk-File-26}
+% delete.field {Bdsk-File-27}
+% delete.field {Bdsk-File-28}
+% delete.field {Bdsk-File-29}
+% delete.field {Bdsk-File-30}
+% delete.field {Date-Modified}
+% delete.field {Reference}
