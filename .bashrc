@@ -93,8 +93,6 @@ alias nyustein='cd ~/Dropbox/Dissertation/nyustein'
 alias dev='cd ~/Dropbox/Dev'
 alias subluser='cd /Users/rammos/Library/Application\ Support/Sublime\ Text\ 3/Packages/User'
 alias formula='cd `brew --prefix`//Library//Formula'
-alias aaltoex='cd ~/Dropbox/Dev/MobileWebAppsExamples'
-alias ftthemes='cd ~/Library/Containers/com.foldingtext.FoldingText/Data/Library/Application\ Support/FoldingText/Themes'
 alias pianonotes='cd ~/Dropbox/Repository/PianoNotes'
 alias pianonotesedit='subl ~/Dropbox/Repository/PianoNotes/PianoNotes.sublime-project'
 
