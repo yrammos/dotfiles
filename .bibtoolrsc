@@ -8,8 +8,6 @@ preserve.key.case = on
 print.newline = 2
 sort = {on}
 
-new.format.type {17=”%f%v%l”}
-
 new.entry.type {article}
 new.entry.type {book}
 new.entry.type {collection}
