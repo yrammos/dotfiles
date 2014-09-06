@@ -83,6 +83,7 @@ alias lyreg='open /usr/local/opt/lilypond/share/doc/lilypond/html/input/regressi
 alias lydocreg='lydoc && lyreg'
 alias rdocs="rvm docs open"
 alias rusgram='open ~/Documents/Non-music/LearnRussian/learnrussian.rt.com/grammar-tables/index.html'
+alias resetbiber="rm -rf `biber --cache`"
 
 alias books='cd ~/Dropbox/Book\ collection'
 alias articles='cd ~/Dropbox/Article\ and\ chapter\ collection'
