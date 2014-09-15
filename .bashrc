@@ -28,10 +28,9 @@ export LSCOLORS=Exfxcxdxbxegedabagacad
 export LS_COLORS="di=34;40:ln=35;40:so=32;40:pi=33;40:ex=31;40:bd=34;46:cd=34;43:su=0;41:sg=0;46:tw=0;42:ow=0;43"
 
 # Prompting
-# export PS1='\n\n\n\[\e[37;40m\](\!) (\j)`__git_ps1` \[$(tput bold)\]▼  \w>\[$(tput sgr0)\]  '
-export PS1='\n\n\n$(if [[ $? = "0" ]]; then echo "\[\e[37;40m\]"; else echo "\[\e[31;40m\]"; fi)(\!) (\j)`__git_ps1` \[$(tput bold)\]▼  \w>\[\e[37;40m$(tput sgr0)\]  '
 export TERM="xterm-256color"
 [ -n "$TMUX" ] && export TERM=screen-256color
+source /usr/local/opt/bash-git-prompt/share/gitprompt.sh
 
 # bash completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
