@@ -1,0 +1,12 @@
+*
+!.bash_profile
+!.bashrc
+!.bibtoolrsc
+!.gemrc
+!.git-prompt-colors.sh
+!.gitconfig
+!.gitignore
+!.gitignore_global
+!.tmux.conf
+!.vimrc
+!.zshrc
