@@ -61,8 +61,6 @@ alias ..='cd ..'
 alias proxyon='networksetup -setautoproxystate Wi-Fi on'
 alias proxyoff='networksetup -setautoproxystate Wi-Fi off'
 alias proxystatus='networksetup -getautoproxyurl Wi-Fi'
-alias privoxyoff='kill `pidof privoxy`'
-alias privoxyon='privoxy /usr/local/etc/privoxy/config'
 
 alias rm='rm -i'
 alias ls='ls -alp'
@@ -105,3 +103,4 @@ alias nyussh="ssh -2 -x theory.smusic.nyu.edu -l rammos"
 
 echo . . . . done!
 
+source /Users/rammos/.oh-my-git/prompt.sh
