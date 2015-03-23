@@ -78,7 +78,7 @@ function gotow() { cd $(dirname `which "$@"`); }
 function cless () { pygmentize -g -O encoding=utf-8 -O style=monokai -f terminal256 "$1" | less -RN; }
 function ccat () { pygmentize -g -O encoding=utf-8 -O style=monokai -f terminal256 "$1" | cat -n; }
 
-function div () { printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' - ; }
+function div () { echo -e "\e[0;31m" ; printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' / ; echo -e "\e[0m" ; }
 
 alias lydoc='open /usr/local/opt/lilypond/share/doc/lilypond/html/index.html'
 alias lyreg='open /usr/local/opt/lilypond/share/doc/lilypond/html/input/regression/collated-files.html'
