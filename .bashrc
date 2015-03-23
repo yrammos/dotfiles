@@ -32,6 +32,7 @@ export TERM="xterm-256color"
 [ -n "$TMUX" ] && export TERM=screen-256color
 # GIT_PROMPT_SHOW_LAST_COMMAND_INDICATOR=1
 # source /usr/local/opt/bash-git-prompt/share/gitprompt.sh
+export PS1='\[\e[0;31m\][\t] \w ▶ \[\e[0m\]'
 source /Users/rammos/Dropbox/Dev/oh-my-git/prompt.sh
 
 # bash completion
