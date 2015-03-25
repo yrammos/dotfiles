@@ -87,7 +87,7 @@ alias lydocreg='lydoc && lyreg'
 alias rdocs="rvm docs open"
 alias rusgram='open ~/Documents/Non-music/LearnRussian/learnrussian.rt.com/grammar-tables/index.html'
 alias resetbiber="rm -rf `biber --cache`"
-alias resetavanti='rm -f *.tex *.sh.swp *.aux *.blg *.dep *.fdb_latexmk *.fls *.log *.run.xml *.synctex.gz lily-*.* snippet-map-*.* *.pdf *.texi *.count *.toc *.lot *.lex *.log *.bcf'
+alias resetavanti='cd ~/Dropbox/Dissertation/avanti/Maintext/ && rm -f *.tex *.sh.swp *.aux *.blg *.dep *.fdb_latexmk *.fls *.log *.run.xml *.synctex.gz lily-*.* snippet-map-*.* *.pdf *.texi *.count *.toc *.lot *.lex *.log *.bcf && cd -'
 
 alias books='cd ~/Dropbox/Book\ collection'
 alias articles='cd ~/Dropbox/Article\ and\ chapter\ collection'
