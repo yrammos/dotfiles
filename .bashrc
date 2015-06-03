@@ -71,7 +71,6 @@ alias emate='emate -v'
 alias mv='mv -i'
 alias bcleanup='brew cleanup && rm -rf `brew --cache`'
 alias bupdate='brew update && brew outdated'
-alias mux='mux _0.5.0_'
 
 function goto() { cd $(dirname "$@"); }
 function gotow() { cd $(dirname `which "$@"`); }
