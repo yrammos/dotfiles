@@ -34,7 +34,7 @@ export TERM="xterm-256color"
 # source /usr/local/opt/bash-git-prompt/share/gitprompt.sh
 export PS1='$(if [[ $? = "0" ]]; then echo "\[\e[37m\]"; else echo "\[\e[31m\]❗ "; fi)[\t] \w ▶ \[\e[0m\]'
 
-source /Users/rammos/Dropbox/Dev/oh-my-git/prompt.sh
+source /Users/rammos/Dev/oh-my-git/prompt.sh
 
 # bash completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
@@ -54,7 +54,7 @@ bind -m vi-insert '"kj":vi-movement-mode'
 export HOMEBREW_NO_EMOJI=1
 
 # tmuxinator completion
-source /Users/rammos/Dropbox/Dev/tmuxinator/bin/tmuxinator_completion
+source /Users/rammos/Dev/tmuxinator/bin/tmuxinator_completion
 
 # Aliases
 alias .=pwd
@@ -86,19 +86,19 @@ alias lydocreg='lydoc && lyreg'
 alias rdocs="rvm docs open"
 alias rusgram='open ~/Documents/Non-music/LearnRussian/learnrussian.rt.com/grammar-tables/index.html'
 alias resetbiber="BIBCACHE=$(biber --cache) bash -c 'rm -rf $BIBCACHE'"
-alias resetavanti='cd ~/Dropbox/Dissertation/avanti/Maintext/ && rm -f *.tex *.sh.swp *.aux *.blg *.dep *.fdb_latexmk *.fls *.log *.run.xml *.synctex.gz lily-*.* snippet-map-*.* *.pdf *.texi *.count *.toc *.lot *.lex *.log *.bcf && cd -'
+alias resetavanti='cd ~/Dissertation/avanti/Maintext/ && rm -f *.tex *.sh.swp *.aux *.blg *.dep *.fdb_latexmk *.fls *.log *.run.xml *.synctex.gz lily-*.* snippet-map-*.* *.pdf *.texi *.count *.toc *.lot *.lex *.log *.bcf && cd -'
 
 alias books='cd ~/Dropbox/Book\ collection'
 alias articles='cd ~/Dropbox/Article\ and\ chapter\ collection'
-alias avanti='cd ~/Dropbox/Dissertation/avanti'
-alias ostracon='cd ~/Dropbox/Dissertation/ostracon'
-alias dissertation='cd ~/Dropbox/Dissertation'
-alias nyustein='cd ~/Dropbox/Dissertation/nyustein'
-alias dev='cd ~/Dropbox/Dev'
+alias avanti='cd ~/Dissertation/avanti'
+alias ostracon='cd ~/Dissertation/ostracon'
+alias dissertation='cd ~/Dissertation'
+alias nyustein='cd ~/Dissertation/nyustein'
+alias dev='cd ~/Dev'
 alias subluser='cd /Users/rammos/Library/Application\ Support/Sublime\ Text\ 3/Packages/User'
 alias formula='cd `brew --prefix`//Library//Formula'
-alias pianonotes='cd ~/Dropbox/Repository/PianoNotes'
-alias pianonotesedit='subl ~/Dropbox/Repository/PianoNotes/PianoNotes.sublime-project'
+alias pianonotes='cd ~/PianoNotes'
+alias pianonotesedit='subl ~/PianoNotes/PianoNotes.sublime-project'
 
 alias nyussh="ssh -2 -x theory.smusic.nyu.edu -l rammos"
 
