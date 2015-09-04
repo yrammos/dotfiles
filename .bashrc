@@ -67,7 +67,6 @@ alias proxystatus='networksetup -getautoproxyurl Wi-Fi'
 alias rm='rm -i'
 alias ls='ls -alp'
 alias cp='cp -n'
-alias emate='emate -v'
 alias mv='mv -i'
 alias bcleanup='sudo brew cleanup && sudo rm -rf `brew --cache`'
 alias bupdate='brew update && brew outdated'
@@ -80,10 +79,6 @@ function ccat () { pygmentize -g -O encoding=utf-8 -O style=monokai -f terminal2
 
 function div () { echo -e "\e[0;31m" ; printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' / ; echo -e "\e[0m" ; }
 
-alias lydoc='open /usr/local/opt/lilypond/share/doc/lilypond/html/index.html'
-alias lyreg='open /usr/local/opt/lilypond/share/doc/lilypond/html/input/regression/collated-files.html'
-alias lydocreg='lydoc && lyreg'
-alias rdocs="rvm docs open"
 alias rusgram='open ~/Documents/Non-music/LearnRussian/learnrussian.rt.com/grammar-tables/index.html'
 alias resetavanti='cd ~/Dissertation/avanti/Maintext/ && rm -f *.tex *.sh.swp *.aux *.blg *.dep *.fdb_latexmk *.fls *.log *.run.xml *.synctex.gz lily-*.* snippet-map-*.* *.pdf *.texi *.count *.toc *.lot *.lex *.log *.bcf && cd -'
 
@@ -98,7 +93,5 @@ alias subluser='cd /Users/rammos/Library/Application\ Support/Sublime\ Text\ 3/P
 alias formula='cd `brew --prefix`//Library//Formula'
 alias pianonotes='cd ~/PianoNotes'
 alias pianonotesedit='subl ~/PianoNotes/PianoNotes.sublime-project'
-
-alias nyussh="ssh -2 -x theory.smusic.nyu.edu -l rammos"
 
 echo . . . . done!
