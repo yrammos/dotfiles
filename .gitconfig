@@ -20,6 +20,7 @@
 	keepBackup = true
 [diff]
 	tool = ksdiff
+	submodule = log
 [difftool "ksdiff"]
 	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
 [difftool "Kaleidoscope"]
@@ -27,3 +28,5 @@
 [mergetool "Kaleidoscope"]
 	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
 	trustExitCode = true
+[status]
+	submoduleSummary = true
