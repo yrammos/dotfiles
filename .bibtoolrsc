@@ -76,6 +76,10 @@ sort.order{* =
         #Isrn
         #Url
         #Doi
+        #Usera
+        #Userb
+        #Userc
+        #Userd
         #Hyphenation
         #Devonthink
         #Reference
