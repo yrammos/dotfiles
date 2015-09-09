@@ -15,6 +15,7 @@ new.entry.type {inbook}
 new.entry.type {incollection}
 new.entry.type {inproceedings}
 new.entry.type {inreference}
+new.entry.type {music}
 new.entry.type {online}
 new.entry.type {periodical}
 new.entry.type {proceedings}
@@ -24,6 +25,7 @@ new.entry.type {suppbook}
 new.entry.type {suppcollection}
 new.entry.type {thesis}
 new.entry.type {unpublished}
+new.entry.type {video}
 
 sort.order{* =
         Author
@@ -41,11 +43,14 @@ sort.order{* =
         #Foreword
         #Afterword
         #Editor
+        #Editortype
         #Translator
         #Namea
         #Nameb
         #Editora
+        #Editorb
         #Editoratype
+        #Editorbtype
         #Journaltitle
         #Entrysubtype
         #Booksubtype
@@ -58,6 +63,8 @@ sort.order{* =
         #Chapter
         #Part
         #Date
+        #Eventdate
+        #Origdate
         #Edition
         #Urldate
         #Organization
@@ -65,6 +72,7 @@ sort.order{* =
         #Location
         #Address
         #Publisher
+        #Pubstate
         #Isrn
         #Url
         #Doi
