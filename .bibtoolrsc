@@ -63,6 +63,8 @@ sort.order{* =
         #Chapter
         #Part
         #Date
+        #Year
+        #Month
         #Eventdate
         #Origdate
         #Edition
