@@ -5,3 +5,5 @@ if [ -f ~/.bashrc ]; then
 fi
 
 echo . . . . done! && clear
+
+test -e ${HOME}/.iterm2_shell_integration.bash && source ${HOME}/.iterm2_shell_integration.bash
