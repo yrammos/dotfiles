@@ -1,5 +1,3 @@
-echo Executing ~/.bashrc . . . .
-
 # Paths: tmux seems to invoke path_helper, so we need to
 # do some trickery to avoid reordering of paths.
 export PATH=":"
@@ -94,4 +92,3 @@ alias formula='cd `brew --prefix`//Library//Formula'
 alias pianonotes='cd ~/PianoNotes'
 alias pianonotesedit='subl ~/PianoNotes/PianoNotes.sublime-project'
 
-echo . . . . done!
