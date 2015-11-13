@@ -1,4 +1,4 @@
-bibtex.search.path = {/Users/rammos/Dissertation/ostracon}
+% bibtex.search.path = {/Users/rammos/Dropbox/Repository}
 verbose = on
 
 pass.comments = on
@@ -98,35 +98,35 @@ sort.order{* =
 % delete.field {Bdsk-Url-8}
 % delete.field {Bdsk-Url-9}
 % delete.field {Bdsk-Url-10}
-% delete.field {Bdsk-File-1}
-% delete.field {Bdsk-File-2}
-% delete.field {Bdsk-File-3}
-% delete.field {Bdsk-File-4}
-% delete.field {Bdsk-File-5}
-% delete.field {Bdsk-File-6}
-% delete.field {Bdsk-File-7}
-% delete.field {Bdsk-File-8}
-% delete.field {Bdsk-File-9}
-% delete.field {Bdsk-File-10}
-% delete.field {Bdsk-File-11}
-% delete.field {Bdsk-File-12}
-% delete.field {Bdsk-File-13}
-% delete.field {Bdsk-File-14}
-% delete.field {Bdsk-File-15}
-% delete.field {Bdsk-File-16}
-% delete.field {Bdsk-File-17}
-% delete.field {Bdsk-File-18}
-% delete.field {Bdsk-File-19}
-% delete.field {Bdsk-File-20}
-% delete.field {Bdsk-File-21}
-% delete.field {Bdsk-File-22}
-% delete.field {Bdsk-File-23}
-% delete.field {Bdsk-File-24}
-% delete.field {Bdsk-File-25}
-% delete.field {Bdsk-File-26}
-% delete.field {Bdsk-File-27}
-% delete.field {Bdsk-File-28}
-% delete.field {Bdsk-File-29}
-% delete.field {Bdsk-File-30}
+delete.field {Bdsk-File-1}
+delete.field {Bdsk-File-2}
+delete.field {Bdsk-File-3}
+delete.field {Bdsk-File-4}
+delete.field {Bdsk-File-5}
+delete.field {Bdsk-File-6}
+delete.field {Bdsk-File-7}
+delete.field {Bdsk-File-8}
+delete.field {Bdsk-File-9}
+delete.field {Bdsk-File-10}
+delete.field {Bdsk-File-11}
+delete.field {Bdsk-File-12}
+delete.field {Bdsk-File-13}
+delete.field {Bdsk-File-14}
+delete.field {Bdsk-File-15}
+delete.field {Bdsk-File-16}
+delete.field {Bdsk-File-17}
+delete.field {Bdsk-File-18}
+delete.field {Bdsk-File-19}
+delete.field {Bdsk-File-20}
+delete.field {Bdsk-File-21}
+delete.field {Bdsk-File-22}
+delete.field {Bdsk-File-23}
+delete.field {Bdsk-File-24}
+delete.field {Bdsk-File-25}
+delete.field {Bdsk-File-26}
+delete.field {Bdsk-File-27}
+delete.field {Bdsk-File-28}
+delete.field {Bdsk-File-29}
+delete.field {Bdsk-File-30}
 % delete.field {Date-Modified}
 % delete.field {Reference}
