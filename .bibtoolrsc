@@ -19,6 +19,7 @@ new.entry.type {music}
 new.entry.type {online}
 new.entry.type {periodical}
 new.entry.type {proceedings}
+new.entry.type {reference}
 new.entry.type {report}
 new.entry.type {review}
 new.entry.type {suppbook}
