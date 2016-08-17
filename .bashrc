@@ -41,7 +41,7 @@ source /Users/rammos/Dev/oh-my-git/prompt.sh
 
 # bash completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
-    . `brew --prefix`/etc/bash_completion
+. `brew --prefix`/etc/bash_completion
 fi
 
 # pip completion
