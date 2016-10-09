@@ -96,17 +96,13 @@ function ccat () { pygmentize -g -O encoding=utf-8 -O style=monokai -f terminal2
 function div () { echo -e "\e[0;31m" ; printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' / ; echo -e "\e[0m" ; }
 
 alias rusgram='open ~/Documents/Non-music/LearnRussian/learnrussian.rt.com/grammar-tables/index.html'
-alias resetavanti='cd ~/Dissertation/avanti/Maintext/ && rm -f *.tex *.sh.swp *.aux *.blg *.dep *.fdb_latexmk *.fls *.log *.run.xml *.synctex.gz lily-*.* snippet-map-*.* *.pdf *.texi *.count *.toc *.lot *.lex *.log *.bcf && cd -'
-
 alias books='cd ~/Dropbox/Book\ collection'
 alias articles='cd ~/Dropbox/Article\ and\ chapter\ collection'
 alias avanti='cd ~/Dissertation/avanti'
 alias ostracon='cd ~/Dissertation/ostracon'
-alias dissertation='cd ~/Dissertation'
 alias nyustein='cd ~/Dissertation/nyustein'
 alias dev='cd ~/Dev'
 alias subluser='cd /Users/rammos/Library/Application\ Support/Sublime\ Text\ 3/Packages/User'
-alias formula='cd `brew --prefix`//Library//Formula'
 alias pianonotes='cd ~/PianoNotes'
 alias pianonotesedit='subl ~/PianoNotes/PianoNotes.sublime-project'
 
