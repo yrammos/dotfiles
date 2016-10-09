@@ -84,7 +84,7 @@ alias rm='rm -i'
 alias ls='ls -alp'
 alias cp='cp -n'
 alias mv='mv -i'
-alias bcleanup='sudo brew cleanup && sudo rm -rf `brew --cache`'
+alias bcleanup='brew cleanup && sudo rm -rf `brew --cache`'
 alias bupdate='brew update && brew outdated'
 
 function goto() { cd $(dirname "$@"); }
