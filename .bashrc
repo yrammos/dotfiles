@@ -5,11 +5,6 @@ eval `/usr/libexec/path_helper -s`
 export PATH="$PATH:$HOME/.cabal/bin:/usr/local/share/npm/bin:/usr/texbin"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 eval "rvm gemset use default > /dev/null"
-PATH="/Users/rammos/perl5/bin${PATH+:}${PATH}"; export PATH;
-PERL5LIB="/Users/rammos/perl5/lib/perl5${PERL5LIB+:}${PERL5LIB}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/Users/rammos/perl5${PERL_LOCAL_LIB_ROOT+:}${PERL_LOCAL_LIB_ROOT}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/Users/rammos/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/Users/rammos/perl5"; export PERL_MM_OPT;
 
 export INFOPATH="/usr/local/share/info:/usr/share/info"
 export NODE_PATH=/usr/local/lib/node_modules
