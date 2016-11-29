@@ -5,6 +5,7 @@ eval `/usr/libexec/path_helper -s`
 export PATH="$PATH:$HOME/.cabal/bin:/usr/local/share/npm/bin:/usr/texbin"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 eval "rvm gemset use default > /dev/null"
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export INFOPATH="/usr/local/share/info:/usr/share/info"
 export NODE_PATH=/usr/local/lib/node_modules
@@ -100,5 +101,4 @@ alias dev='cd ~/Dev'
 alias subluser='cd /Users/rammos/Library/Application\ Support/Sublime\ Text\ 3/Packages/User'
 alias pianonotes='cd ~/PianoNotes'
 alias pianonotesedit='subl ~/PianoNotes/PianoNotes.sublime-project'
-
 
