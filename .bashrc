@@ -98,6 +98,7 @@ alias avanti='cd ~/Dissertation/avanti'
 alias ostracon='cd ~/Dissertation/ostracon'
 alias nyustein='cd ~/Dissertation/nyustein'
 alias dev='cd ~/Dev'
+alias ic="alias ic=cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
 alias subluser='cd /Users/rammos/Library/Application\ Support/Sublime\ Text\ 3/Packages/User'
 alias pianonotes='cd ~/PianoNotes'
 alias pianonotesedit='subl ~/PianoNotes/PianoNotes.sublime-project'
