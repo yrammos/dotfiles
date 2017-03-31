@@ -65,9 +65,6 @@ bind -m vi-insert '"kj":vi-movement-mode'
 # Homebrew synaesthesia
 export HOMEBREW_NO_EMOJI=1
 
-# tmuxinator completion
-source /Users/rammos/Dev/tmuxinator/bin/tmuxinator_completion
-
 # Aliases
 alias .=pwd
 alias ..='cd ..'
