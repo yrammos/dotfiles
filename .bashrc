@@ -66,6 +66,10 @@ bind -m vi-insert '"kj":vi-movement-mode'
 export HOMEBREW_NO_EMOJI=1
 
 # Aliases
+
+## Autojump
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
 alias .=pwd
 alias ..='cd ..'
 
