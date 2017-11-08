@@ -2,6 +2,7 @@ export PATH="$PATH:$HOME/.cabal/bin:/usr/local/share/npm/bin:/usr/texbin"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 eval "rvm gemset use default > /dev/null"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 export INFOPATH="/usr/local/share/info:/usr/share/info"
 export NODE_PATH=/usr/local/lib/node_modules
 
