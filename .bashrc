@@ -1,12 +1,7 @@
-# Paths: tmux seems to invoke path_helper, so we need to
-# do some trickery to avoid reordering of paths.
-export PATH=":"
-eval `/usr/libexec/path_helper -s`
 export PATH="$PATH:$HOME/.cabal/bin:/usr/local/share/npm/bin:/usr/texbin"
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 eval "rvm gemset use default > /dev/null"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
 export INFOPATH="/usr/local/share/info:/usr/share/info"
 export NODE_PATH=/usr/local/lib/node_modules
 
