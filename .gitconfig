@@ -8,6 +8,7 @@
 	user = yrammos
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative --all
+	latexdiff = difftool -t latexdiff
 [color]
 	ui = true
 [credential]
@@ -34,3 +35,5 @@
 	submoduleSummary = true
 [difftool]
 	prompt = false
+[difftool "latexdiff"]
+	cmd = git-latexdiff-helper \"$LOCAL\" \"$REMOTE\"
