@@ -37,12 +37,7 @@ man "$@"
 
 # Prompting
 export TERM="xterm-256color"
-[ -n "$TMUX" ] && export TERM=screen-256color
-# GIT_PROMPT_SHOW_LAST_COMMAND_INDICATOR=1
-# source /usr/local/opt/bash-git-prompt/share/gitprompt.sh
-export PS1='$(if [[ $? = "0" ]]; then echo "\[\e[37m\]"; else echo "\[\e[31m\]❗ "; fi)[\t] \w ▶ \[\e[0m\]'
 
-source /Users/rammos/Dev/oh-my-git/prompt.sh
 
 # bash completion
 if [ -f `brew --prefix`/etc/bash_completion ]; then
