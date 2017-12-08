@@ -64,10 +64,6 @@ export HOMEBREW_NO_EMOJI=1
 alias .=pwd
 alias ..='cd ..'
 
-alias proxyon='networksetup -setautoproxystate Wi-Fi on'
-alias proxyoff='networksetup -setautoproxystate Wi-Fi off'
-alias proxystatus='networksetup -getautoproxyurl Wi-Fi'
-
 alias rm='rm -i'
 alias ls='ls -alp'
 alias cp='cp -n'
