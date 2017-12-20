@@ -84,7 +84,6 @@ function ccat () { pygmentize -g -O encoding=utf-8 -O style=monokai -f terminal2
 
 function div () { echo -e "\e[0;31m" ; printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' / ; echo -e "\e[0m" ; }
 
-alias rusgram='open ~/Documents/Non-music/LearnRussian/learnrussian.rt.com/grammar-tables/index.html'
 alias books='cd ~/Dropbox/Book\ collection'
 alias articles='cd ~/Dropbox/Article\ and\ chapter\ collection'
 alias avanti='cd ~/Dissertation/avanti'
