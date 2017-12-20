@@ -1,13 +1,11 @@
-export PATH="$PATH:$HOME/.cabal/bin:/usr/local/share/npm/bin:/usr/texbin"
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
-eval "rvm gemset use default > /dev/null"
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-export INFOPATH="/usr/local/share/info:/usr/share/info"
-export NODE_PATH=/usr/local/lib/node_modules
+# Binaries paths
+export PATH="$PATH:$HOME/.cabal/bin"
+export PATH="$PATH:/usr/local/opt/python/libexec/bin"
 
-# Add DocBook in XML toolchain
+# Documentation and other files paths
 export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
+export INFOPATH="/usr/local/share/info:/usr/share/info"
+export NODE_PATH="/usr/local/lib/node_modules"
 
 ## Locale and language
 export LANG="en_US.UTF-8"
