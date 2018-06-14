@@ -7,6 +7,10 @@ export XML_CATALOG_FILES="/usr/local/etc/xml/catalog"
 export INFOPATH="/usr/local/share/info:/usr/share/info"
 export NODE_PATH="/usr/local/lib/node_modules"
 
+# Java
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
 ## Locale and language
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
